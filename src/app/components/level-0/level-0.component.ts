@@ -6,10 +6,15 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./level-0.component.css']
 })
 export class Level0Component implements OnInit {
-
+dataToPass: string;
   constructor() { }
 
   ngOnInit() {
   }
 
+  onSend(data):void{
+    this.dataToPass = data;
+      console.log(data);
+  }
+  
 }
