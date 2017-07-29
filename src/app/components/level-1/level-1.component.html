@@ -1,9 +1,12 @@
 <div class="container level-1">
   <h3><strong>lvl 1 </strong> component</h3>
 
-  <div class="form-group">
-    <label class="control-label" for="inputDefault">Data Input</label>
-    <input type="text" class="form-control" id="inputDefault" value="{{dataAtLvl1}}" #level1>
+    <div class="input-group">
+      <input type="text" class="form-control" value="{{dataAtLvl1}}" #level1>
+      <span class="input-group-btn">
+        <button class="btn btn-default" type="button">Send Data</button>
+      </span>
   </div>
-  <app-level-2 [dataAtLvl2]="level1"></app-level-2>
+  
+  <app-level-2></app-level-2>
 </div>
