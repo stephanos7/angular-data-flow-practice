@@ -6,8 +6,8 @@
     <input type="text" class="form-control" id="inputDefault" #level0>
   </div>
   <a href="#" class="btn btn-default" (click)="onSend(level0.value)">Send Data</a>
-  <app-level-1></app-level-1>
+  <app-level-1 [dataAtLvl1]="dataToPass"></app-level-1>
   <br>
   <br>
-  <app-level-1></app-level-1>
+  <app-level-1 [dataAtLvl1]="dataToPass"></app-level-1>
 </div>

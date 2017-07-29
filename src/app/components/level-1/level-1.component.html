@@ -3,7 +3,7 @@
 
   <div class="form-group">
     <label class="control-label" for="inputDefault">Data Input</label>
-    <input type="text" class="form-control" id="inputDefault">
+    <input type="text" class="form-control" id="inputDefault" value="{{dataAtLvl1}}" #level1>
   </div>
-  <app-level-2></app-level-2>
+  <app-level-2 [dataAtLvl2]="level1"></app-level-2>
 </div>
