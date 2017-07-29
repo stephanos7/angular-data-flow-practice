@@ -2,9 +2,9 @@ h3{
   margin-bottom: 30px;
 }
 
-.form-group{
+.input-group{
   max-width: 300px;
-  padding-bottom: 20px;
+  padding-bottom: 30px;
 }
 
 .level-0{
@@ -12,8 +12,4 @@ h3{
   background-color: lightpink;
   border: 1px solid lightcoral;
   border-radius: 3px;
-}
-
-a{
-  display: inline-block;
 }

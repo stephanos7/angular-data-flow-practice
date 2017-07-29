@@ -1,11 +1,13 @@
 <div class="container level-0">
   <h3><strong>lvl 0 </strong> component</h3>
 
-  <div class="form-group">
-    <label class="control-label" for="inputDefault">Data Input</label>
-    <input type="text" class="form-control" id="inputDefault" #level0>
+  <div class="input-group">
+    <input type="text" class="form-control" #level0>
+    <span class="input-group-btn">
+      <button class="btn btn-default" type="button" (click)="onSend(level0.value)">Send Data</button>
+    </span>
   </div>
-  <a href="#" class="btn btn-default" (click)="onSend(level0.value)">Send Data</a>
+
   <app-level-1 [dataAtLvl1]="dataToPass"></app-level-1>
   <br>
   <br>
