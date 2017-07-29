@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class Level0Component implements OnInit {
 dataToPass: string;
+
   constructor() { }
 
   ngOnInit() {
@@ -16,5 +17,5 @@ dataToPass: string;
     this.dataToPass = data;
       console.log(data);
   }
-  
+
 }

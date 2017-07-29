@@ -4,7 +4,7 @@
     <div class="input-group">
       <input type="text" class="form-control" value="{{dataAtLvl1}}" #level1>
       <span class="input-group-btn">
-        <button class="btn btn-default" type="button">Send Data</button>
+        <button class="btn btn-default" type="button" (click)="onSend(level1.value)">Send Data</button>
       </span>
   </div>
   
