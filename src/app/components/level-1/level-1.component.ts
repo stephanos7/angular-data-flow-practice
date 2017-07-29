@@ -14,7 +14,7 @@ dataAtLvl1 : String;
   ngOnInit() {
   }
 
-  onSend(data){
+  onSend(data):void{
     this.dataAtLvl1 = data;
     console.log(this.dataAtLvl1);
   }
