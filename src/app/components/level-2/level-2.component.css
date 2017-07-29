@@ -1,5 +1,6 @@
-.form-group{
+.input-group{
   max-width: 300px;
+  padding-bottom: 30px;
 }
 .level-2{
   padding: 30px;
